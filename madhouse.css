@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f8f8f8;
+}
+
+header {
+    background: #e63946;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
